@@ -4,7 +4,7 @@
     static Dictionary<DateTime, DiaryEntry> diaryDictionary = new Dictionary<DateTime, DiaryEntry>();
     static FileService fileService = new FileService("diary.txt");
 
-    static void Main(string[] args)
+    static void Main(string[] args) // Meny loop
     {
         while (true)
         {
