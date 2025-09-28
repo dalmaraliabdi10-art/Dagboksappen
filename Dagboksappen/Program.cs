@@ -21,7 +21,7 @@
 
             string choice = Console.ReadLine();
 
-            switch (choice)
+            switch (choice) // Menyval hantering
             {
                 case "1": AddEntry(); break;
                 case "2": ListEntries(); break;
@@ -36,7 +36,7 @@
         }
     }
 
-    static void AddEntry()
+    static void AddEntry() // Lägg till ny anteckning
     {
         Console.Write("Ange datum (YYYY-MM-DD): ");
         string dateInput = Console.ReadLine();
