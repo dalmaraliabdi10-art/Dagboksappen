@@ -1,0 +1,17 @@
+# Visual Studio och VS Code
+.vs/
+.vscode/
+
+# Byggmappar
+bin/
+obj/
+
+# Projektfiler som inte ska pushas
+Dagboksappen.csproj
+
+# Loggfiler
+*.log
+
+# OS genererade filer
+*.DS_Store
+Thumbs.db
