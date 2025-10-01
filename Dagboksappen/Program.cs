@@ -20,7 +20,7 @@
             Console.Write("Välj ett alternativ: ");
 
             string choice = Console.ReadLine();
-            
+
             switch (choice) // Menyval hantering
             {
                 case "1": AddEntry(); break;
@@ -36,6 +36,7 @@
         }
     }
 
+    
     static void AddEntry() // Lägg till ny anteckning
     {
         Console.Write("Ange datum (YYYY-MM-DD): ");
