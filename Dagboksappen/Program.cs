@@ -36,7 +36,7 @@
         }
     }
 
-    
+
     static void AddEntry() // Lägg till ny anteckning
     {
         Console.Write("Ange datum (YYYY-MM-DD): ");
