@@ -8,8 +8,8 @@ public class FileService
         filePath = path;
     }
 
-    public void SaveToFile(List<DiaryEntry> entries)
-    {
+    public void SaveToFile(List<DiaryEntry> entries)  // Spara alla anteckningar till fil
+    { // try catch för att fånga filskrivningsfel
         try
         {
             using (StreamWriter writer = new StreamWriter(filePath))
@@ -27,8 +27,8 @@ public class FileService
         }
     }
 
-    public List<DiaryEntry> LoadFromFile()
-    {
+    public List<DiaryEntry> LoadFromFile() // Läs alla anteckningar från fil
+    { // try catch för att fånga filinläsningsfel
         var entries = new List<DiaryEntry>();
         try
         {
