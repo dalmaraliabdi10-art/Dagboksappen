@@ -81,7 +81,7 @@
         }
     }
 
-    static void SearchEntry()
+    static void SearchEntry() // Sök anteckning på datum
     {
         Console.Write("Ange datum (YYYY-MM-DD): ");
         string dateInput = Console.ReadLine();
