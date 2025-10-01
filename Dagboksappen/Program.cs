@@ -4,7 +4,7 @@
     static Dictionary<DateTime, DiaryEntry> diaryDictionary = new Dictionary<DateTime, DiaryEntry>();
     static FileService fileService = new FileService("diary.txt");
 
-    static void Main(string[] args) // Meny loop
+    static void Main(string[] args) // Meny loops
     {
         while (true)
         {
@@ -20,7 +20,7 @@
             Console.Write("Välj ett alternativ: ");
 
             string choice = Console.ReadLine();
-
+            
             switch (choice) // Menyval hantering
             {
                 case "1": AddEntry(); break;
